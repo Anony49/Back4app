@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone https://NirjonX69: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@github.com/NirjonX69/DeadRobot lol && cd lol
+git clone $REPO_URL ok && cd ok
 pip3 install poetry -y
 apt-get -qq update && apt-get -qq upgrade -y
 pip install --upgrade pip
